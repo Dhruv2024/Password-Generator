@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+}
+
+#password {
+    height: 6vh;
+}
+
+.copy-image img {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.password-detail {
+    display: flex;
+}
+
+#password-value {
+    margin-left: 3vw;
+}
+
+.generate-button {
+    cursor: pointer;
+}
+
+
+[data-indicator] {
+
+    background-color: red;
+}
